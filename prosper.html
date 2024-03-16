@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html lang="en-US">
+  <head>
+    <title>Prosper high</title>
+    <meta name="keywords" content="Saumil Nalin, Shyam, Kashvi, Kavita">
+    <meta name="description" content="All about SAUMIL">
+    <meta charset="UTF-8">
+    <meta name="author" content="Saumil Nalin">
+    <meta http-equiv="refresh" content="900">
+    <style>
+      div.prosper_text {
+        position: absolute;
+        top: 100px;
+        left: 275px;
+        width: 600px;
+        height: 300px;
+        border: none;
+      }
+      div.prosper_img {
+        position: absolute;
+        top: 450px;
+        left: 400px;
+        overflow: visible;
+        maxwidth: 500px;
+        maxheight: 500px;
+      }
+      h1#prosper {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 75%;
+      }
+    </style>
+  </head>
+  <body style="background-image:url(iback.jpg);">
+    <div class="prosper_text" style="background-image:url(http://feelgrafix.com/data_images/out/3/754358-blue-pictures.jpg);">
+      <h1>Prosper High School (My Sixth USA School)
+      </h1>
+      <p>So Prosper high school is so far the latest of my schools. I have never been to such a big school is over a mile if walking just within a school PER DAY. I don't know how I haven't started losing weight. So As I was saying Prosper high school will probably be my last school before college. I think I will like it here. So far I have a few friends in this school so its all well and all. But I still kind of miss Lebanon trail high school because wanted to stay with my friends back there and not move because so far that school has been the best and greatest for me. When I moved to prosper, its almost as if I have to start all again from scratch and this time I don't get a starter kit all I have is me and thats all I get. Well I am surviving here. My classes are pretty good. Personally my english teacher though can be better. But its all good so far. We'll see what the future has in mind for me.
+      </p>
+    </div>
+    <div class="prosper_img">
+      <h1 id="prosper">THIS IS THE PROSPER HIGH SCHOOL:
+      </h1>
+      <div class="w3-content" style="position:relative;">
+        <div class="w3-display-container mySlides">
+          <img src="prosperfront.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Prosper front
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="prosperfrontgate.jpg" style="width:100%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Prosper front gate
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="prosperlogo.png" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            Prosper Eagles (mascot)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="goprospergo.jpg" style="width:100%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            GO Prosper GO!!!
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+  </body>
+</html>

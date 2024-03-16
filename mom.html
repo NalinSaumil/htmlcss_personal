@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html lang="en-US">
+  <head>
+    <title>My Mom</title>
+    <meta name="keywords" content="Saumil Nalin, Shyam, Kashvi, Kavita">
+    <meta name="description" content="All about SAUMIL">
+    <meta charset="UTF-8">
+    <meta name="author" content="Saumil Nalin">
+    <meta http-equiv="refresh" content="900">
+    <style>
+      div.mom_text {
+        position: absolute;
+        top: 100px;
+        left: 275px;
+        width: 600px;
+        height: 400px;
+        border: none;
+      }
+      div.mom_img {
+        position: absolute;
+        top: 550px;
+        left: 275px;
+        overflow: visible;
+        maxwidth: 500px;
+        maxheight: 500px;
+      }
+      h1#mom {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 75%;
+      }
+    </style>
+  </head>
+  <body style="background-image:url(iback.jpg);">
+    <div class="mom_text" style="background-image:url(http://feelgrafix.com/data_images/out/3/754358-blue-pictures.jpg);">
+      <h1>My Mom
+      </h1>
+      <h2>My Mom to Me (not just a lifegiver)</h2>
+      <p>My mom as you know would be my lifegiver without her I wouldn't be here making this website that I call awesome work, but she is also my friend and even though I get into trouble ALOT, I can tell you that she bares that and still lives happily.
+      </p>
+      <h2>Mom's Family (Her region)</h2>
+      <p>My mom has 2 brothers and 4 sisters along with her Parents. So I would say that she has a total of 9 people in her family but since her dad (my grandfather) just passed away, the family count is now 8. 1 brother and 1 sister of hers live right here in america. That brother who lives in America is my favourite uncle out of every uncle that I have including my dad's side of the family. So as you can see my mom can have a handful at times causing her to get really angry.
+      </p>
+    </div>
+    <div class="mom_img">
+      <h1 id="mom">THIS IS MY MOM AND HER FAMILY:
+      </h1>
+      <div class="w3-content" style="position:relative;">
+        <div class="w3-display-container mySlides">
+          <img src="mom.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Mom
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="nanaandnani.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Mom's Parents</div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="pummy.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Favorite Uncle
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="sarita.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My aunt that lives in USA
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="poonam.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Aunt
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="gudiya.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Aunt
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="alok.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Other Uncle
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="babie.jpg" style="width:50%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Aunt
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+  </body>
+</html>

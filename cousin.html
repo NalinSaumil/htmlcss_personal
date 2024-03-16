@@ -1,0 +1,145 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html lang="en-US">
+  <head>
+    <title>Cousins</title>
+    <meta name="keywords" content="Saumil Nalin, Shyam, Kashvi, Kavita">
+    <meta name="description" content="All about SAUMIL">
+    <meta charset="UTF-8">
+    <meta name="author" content="Saumil Nalin">
+    <meta http-equiv="refresh" content="900">
+    <style>
+      div.cous_text {
+        position: absolute;
+        top: 100px;
+        left: 275px;
+        width: 600px;
+        height: 300px;
+        border: none;
+      }
+      div.cous_img {
+        position: absolute;
+        top: 450px;
+        left: 450px;
+        overflow: visible;
+        maxwidth: 500px;
+        maxheight: 500px;
+      }
+      h1#cous {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 75%;
+      }
+    </style>
+  </head>
+  <body style="background-image:url(iback.jpg);">
+    <div class="cous_text" style="background-image:url(http://feelgrafix.com/data_images/out/3/754358-blue-pictures.jpg);">
+      <h1>My Vast Variety of Cousins
+      </h1>
+      <h2>My Cousins (A handful for a T-rex)</h2>
+      <p>I have a whole lot of cousins and some of them I have rarely met in my life.
+        These cousins are my best friends especially my favrouite cousin that you will see
+        in the slideshow below. Most of my cousins orginated from my mom's side because of her 7 siblings and other's from my dad's side.
+        Even though this might be hard, but my cousins would always be there when I need them and I will always be there when they need me.
+      </p>
+    </div>
+    <div class="cous_img">
+      <h1 id="cous">THESE ARE MY COUSINS:
+      </h1>
+      <div class="w3-content" style="position:relative;">
+        <div class="w3-display-container mySlides">
+          <img src="shayana.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My Favorite (dad's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="vansh.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (dad's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="shreya.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (dad's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="salisha and sanskriti.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin sisters that lives in USA (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="palaksh.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My third favorite cousin brother that lives in th USA (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="munmun.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My other favorite cousin (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="tuktuk.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="ieru.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="roli.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin that work's in my dad's company(mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="rashi.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="chinky.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="prinsu.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (mom's side)
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="posi.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+            My cousin (mom's side)
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+  </body>
+</html>

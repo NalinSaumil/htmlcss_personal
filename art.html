@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN">
+<html lang="en-US">
+  <head>
+    <title>Art</title>
+    <meta name="keywords" content="Saumil Nalin, Shyam, Kashvi, Kavita">
+    <meta name="description" content="All about SAUMIL">
+    <meta charset="UTF-8">
+    <meta name="author" content="Saumil Nalin">
+    <meta http-equiv="refresh" content="900">
+    <style>
+      div.art_text {
+        position: absolute;
+        top: 100px;
+        left: 275px;
+        width: 600px;
+        height: 300px;
+        border: none;
+      }
+      div.art_img {
+        position: absolute;
+        top: 450px;
+        left: 450px;
+        overflow: visible;
+        maxwidth: 500px;
+        maxheight: 500px;
+      }
+      h1#art {
+        color: white;
+        font-family: "Times New Roman", Times, serif;
+        font-size: 75%;
+      }
+    </style>
+  </head>
+  <body style="background-image:url(iback.jpg);">
+    <div class="art_text" style="background-image:url(http://feelgrafix.com/data_images/out/3/754358-blue-pictures.jpg);">
+      <h1>My Talent of See and Draw
+      </h1>
+      <h2>My Drawing (The Best)</h2>
+      <p>My Drawings weren't always good, I mean as of my opinion, but after a whole lot of practice and choosing pictures to draw I have finally become able enough to draw good drawings and expose them to earn appreciation.
+      </p>
+    </div>
+    <div class="art_img">
+      <h1 id="art">THESE ARE MY DRAWINGS:
+      </h1>
+      <div class="w3-content" style="position:relative;">
+        <div class="w3-display-container mySlides">
+          <img src="rosearewhite.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="batman.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="modernmulan.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="saibaba.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="tearsofglasswater.jpg" style="width:35%">
+          <div class="w3-display-bottomright w3-large w3-container w3-padding-16 w3-black">
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      var myIndex = 0;
+      carousel();
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {myIndex = 1}
+        x[myIndex-1].style.display = "block";
+        setTimeout(carousel, 2000);
+      }
+    </script>
+  </body>
+</html>
